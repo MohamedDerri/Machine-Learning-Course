@@ -39,5 +39,6 @@ class pcn:
 				# Update weights
 				self.weights += eta * error * inputs[i].reshape(-1,1)
 				print("final output : ", output)
+			print("----------------------------")
 
 
